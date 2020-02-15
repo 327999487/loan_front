@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+
+  <context id="DB2Tables" targetRuntime="MyBatis3">
+
+    <property name="javaFileEncoding" value="UTF-8"/>
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+
+  <!--  <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+      &lt;!&ndash;通用 Mapper 插件，可以生成带注解的实体类&ndash;&gt;
+      <property name="mappers" value="tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.MySqlMapper,tk.mybatis.mapper.common.IdsMapper,tk.mybatis.mapper.common.ConditionMapper"/>
+      &lt;!&ndash; caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true &ndash;&gt;
+      <property name="caseSensitive" value="true"/>
+      <property name="forceAnnotation" value="true"/>
+      <property name="beginningDelimiter" value="`"/>
+      <property name="endingDelimiter" value="`"/>
+
+    </plugin>-->
+
+    <commentGenerator type="com.cycfc.borrow.MyCommentGenerator">
+      <property name="suppressDate" value="true"/>
+      <property name="addRemarkComments" value="true"/>
+      <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+      <!--<property name="suppressAllComments" value="true"/>-->
+    </commentGenerator>
+
+  <!-- 如何连接到目标数据库 -->
+    <jdbcConnection
+        driverClass="oracle.jdbc.driver.OracleDriver"
+        connectionURL="jdbc:oracle:thin:@66.1.3.22:1521:cmis"
+        userId="ccabcfc"
+        password="ccabcfc">
+      <!-- 针对oracle数据库 -->
+      <property name="remarksReporting" value="true"></property>
+    </jdbcConnection>
+
+	<!-- 类型解析器 -->
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+	<!-- 制定javabean的生成属性 -->
+    <javaModelGenerator targetPackage="com.cycfc.borrow.entity" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+	<!-- 制定映射文件生成策略 -->
+    <sqlMapGenerator targetPackage="com.cycfc.borrow.mapper" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+	<!-- 指定mapper接口所在位置 -->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.cycfc.borrow.dao" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+	<!-- 指定要生成的实体类对应的表 -->
+	<table tableName="CF_USER_INFO" domainObjectName="UserInfo">
+<!--      CfCooperationLoantype-->
+      <!--<generatedKey column="id" sqlStatement="ORACLE" identity="true"/>-->
+      <!-- 是否只生成POJO对象 -->
+    <!--  <property name="modelOnly" value="false"/>
+      &lt;!&ndash; 数据库中表名有时我们都会带个前缀，而实体又不想带前缀，这个配置可以把实体的前缀去掉 &ndash;&gt;
+      <domainObjectRenamingRule searchString="^CF" replaceString=""/>-->
+    </table>
+
+  </context>
+</generatorConfiguration>
