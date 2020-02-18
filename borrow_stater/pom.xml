@@ -16,6 +16,14 @@
             <groupId>com.cycfc.borrow</groupId>
             <artifactId>borrow_web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.cycfc.borrow</groupId>
+            <artifactId>borrow_api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cycfc.borrow</groupId>
+            <artifactId>borrow_config</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

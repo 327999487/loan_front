@@ -4,13 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>borrow_base</module>
+		<module>borrow_config</module>
 		<module>borrow_dao</module>
 		<module>borrow_service</module>
 		<module>borrow_web</module>
 		<module>borrow_api</module>
-		<module>borrow_stater</module>
 		<module>borrow_generator</module>
-	</modules>
+		<module>borrow_stater</module>
+    </modules>
 	<parent>
 		<groupId>com.cycfc.boot</groupId>
 		<artifactId>cycfc-starter-parent</artifactId>
@@ -59,6 +60,12 @@
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
 				<artifactId>borrow_api</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.cycfc.borrow</groupId>
+				<artifactId>borrow_config</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
@@ -153,6 +160,11 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
 		</dependency>
 
 	</dependencies>

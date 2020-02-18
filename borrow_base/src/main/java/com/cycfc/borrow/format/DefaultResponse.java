@@ -11,7 +11,7 @@ import lombok.Data;
  */
 @Data
 public class DefaultResponse<T> {
-    private int code = 200;
+    private String code = "200";
     private String msg = "ok";
     private T data;
 
@@ -27,11 +27,11 @@ public class DefaultResponse<T> {
     }
 
     public static class ResponseBuilder<T>{
-        private int code = ResponseCode.SUCCESS.getCode();
-        private String msg = ResponseCode.SUCCESS.getMessage();
+        private String code = ResponseCodeEnum.SUCCESS.getCode();
+        private String msg = ResponseCodeEnum.SUCCESS.getMessage();
         private T data;
 
-        public ResponseBuilder code(int code){
+        public ResponseBuilder code(String code){
             this.code = code;
             return this;
         }
@@ -46,7 +46,7 @@ public class DefaultResponse<T> {
             return this;
         }
 
-        public ResponseBuilder glue(ResponseCode responseCode){
+        public ResponseBuilder glue(ResponseCodeEnum responseCode){
             this.code = responseCode.getCode();
             this.msg = responseCode.getMessage();
             return this;

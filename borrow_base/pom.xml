@@ -11,5 +11,12 @@
 
     <artifactId>borrow_base</artifactId>
 
+    <dependencies>
+        <!-- apache httpclient组件 -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
