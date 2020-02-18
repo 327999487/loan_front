@@ -5,6 +5,12 @@ import java.security.PublicKey;
 import java.security.Signature;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
+/**
+ * @program: cycfc-borrow-front
+ * @description: 测试
+ * @author: wwt
+ * @create: 2020-02-17 15:21
+ **/
 public class verify{
 	public static void main(String[] args)throws Exception{
 		//original data

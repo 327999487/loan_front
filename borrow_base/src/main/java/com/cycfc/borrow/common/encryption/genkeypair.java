@@ -4,6 +4,13 @@ import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.security.PrivateKey;
 import java.util.Base64;
+
+/**
+ * @program: cycfc-borrow-front
+ * @description: 测试
+ * @author: wwt
+ * @create: 2020-02-17 15:21
+ **/
 public class genkeypair{
 	
 	public static void main(String[] args)throws Exception{
