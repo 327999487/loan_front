@@ -30,5 +30,5 @@ build/
 ### VS Code ###
 .vscode/
 /logs/
-/cycfc_borrow_biz.log
+/cycfc_loan_biz.log
 /borrow.log

@@ -3,14 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
-		<module>borrow_base</module>
-		<module>borrow_config</module>
-		<module>borrow_dao</module>
-		<module>borrow_service</module>
-		<module>borrow_web</module>
-		<module>borrow_api</module>
-		<module>borrow_generator</module>
-		<module>borrow_stater</module>
+		<module>loan_base</module>
+		<module>loan_config</module>
+		<module>loan_dao</module>
+		<module>loan_service</module>
+		<module>loan_web</module>
+		<module>loan_api</module>
+		<module>loan_generator</module>
+		<module>loan_stater</module>
     </modules>
 	<parent>
 		<groupId>com.cycfc.boot</groupId>
@@ -21,10 +21,10 @@
 
 
 	<groupId>com.cycfc.borrow</groupId>
-	<artifactId>borrow-front</artifactId>
+	<artifactId>loan-front</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>borrow-front</name>
-	<description>borrow-front project for Spring Boot</description>
+	<name>loan-front</name>
+	<description>loan-front project for Spring Boot</description>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -35,37 +35,37 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_base</artifactId>
+				<artifactId>loan_base</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_dao</artifactId>
+				<artifactId>loan_dao</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_service</artifactId>
+				<artifactId>loan_service</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_web</artifactId>
+				<artifactId>loan_web</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_api</artifactId>
+				<artifactId>loan_api</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.cycfc.borrow</groupId>
-				<artifactId>borrow_config</artifactId>
+				<artifactId>loan_config</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
