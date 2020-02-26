@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 封装httpClient响应结果
  * @author: wwt
  * @create: 2020-02-17 17:22

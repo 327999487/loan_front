@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: Swagger2 启动配置
  * @author: wwt
  * @create: 2020-02-15 20:27

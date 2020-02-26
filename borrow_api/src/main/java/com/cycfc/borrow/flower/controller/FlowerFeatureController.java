@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 数据准备接口
  * @author: wwt
  * @create: 2020-02-17 20:54

@@ -27,14 +27,18 @@ import java.util.logging.Filter;
  */
 public class CreateMapper {
     public static void main(String[] args) throws IOException, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
-        List<String> warnings = new ArrayList<>();
-        //File configFile = new File("D:\\wwt\\cy\\code\\cycfc-borrow-front\\borrow_generator\\src\\main\\resources\\mybatis-generator.xml");
+       int a = Integer.valueOf(null);
+        System.out.println(a);
+
+        /* List<String> warnings = new ArrayList<>();
+        //File configFile = new File("D:\\wwt\\cy\\code\\borrow-front\\borrow_generator\\src\\main\\resources\\mybatis-generator.xml");
        File configFile = ResourceUtils.getFile("classpath:mybatis-generator.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
+        System.out.println("表对应的mapper和pojo生成完成！23234234");
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(true);
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
         myBatisGenerator.generate(null);
-        System.out.println("表对应的mapper和pojo生成完成！");
+        System.out.println("表对应的mapper和pojo生成完成！");*/
     }
 }

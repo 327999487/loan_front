@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 请求参数处理, 不处理body传过来的参数
  * @author: wwt
  * @create: 2020-02-17 14:50

@@ -4,7 +4,7 @@ import com.cycfc.borrow.format.MsgEnum;
 import lombok.Data;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: API访问受限异常
  * @author: wwt
  * @create: 2020-02-17 15:21

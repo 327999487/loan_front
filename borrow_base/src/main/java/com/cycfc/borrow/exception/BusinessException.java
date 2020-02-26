@@ -4,7 +4,7 @@ import com.cycfc.borrow.response.BusinessErrorCodeEnum;
 import lombok.Data;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 业务自定义异常
  * @author: wwt
  * @create: 2020-02-17 10:33

@@ -6,7 +6,7 @@ import java.security.Signature;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.Base64;
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 加密方式
  * @author: wwt
  * @create: 2020-02-17 15:21

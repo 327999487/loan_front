@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 基础全局异常处理
  * @author: wwt
  * @create: 2020-02-17 12:34

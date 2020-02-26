@@ -20,11 +20,11 @@
 	</parent>
 
 
-	<groupId>com.cycfc.borrow </groupId>
-	<artifactId>cycfc-borrow-front </artifactId>
+	<groupId>com.cycfc.borrow</groupId>
+	<artifactId>borrow-front</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cycfc-borrow-front </name>
-	<description>cycfc-borrow-front project for Spring Boot</description>
+	<name>borrow-front</name>
+	<description>borrow-front project for Spring Boot</description>
 	<packaging>pom</packaging>
 
 	<properties>

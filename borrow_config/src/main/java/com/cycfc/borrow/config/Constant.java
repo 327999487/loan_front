@@ -1,7 +1,7 @@
 package com.cycfc.borrow.config;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 常量属性
  * @author: wwt
  * @create: 2020-02-17 15:28

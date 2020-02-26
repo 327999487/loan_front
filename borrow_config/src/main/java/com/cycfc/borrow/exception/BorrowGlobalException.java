@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 全局异常处理
  * @author: wwt
  * @create: 2020-02-17 10:38

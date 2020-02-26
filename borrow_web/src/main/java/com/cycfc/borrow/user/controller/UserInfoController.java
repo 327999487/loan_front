@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 测试用户信息查询
  * @author: wwt
  * @create: 2020-02-15 19:52

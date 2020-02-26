@@ -1,7 +1,7 @@
 package com.cycfc.borrow.exception;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: HttpClient异常类
  * @author: wwt
  * @create: 2020-02-17 17:27

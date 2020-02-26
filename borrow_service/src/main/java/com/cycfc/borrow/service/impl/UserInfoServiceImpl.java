@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 用户测试业务逻辑实现类
  * @author: wwt
  * @create: 2020-02-15 17:41

@@ -11,7 +11,7 @@ import lombok.ToString;
 import java.io.Serializable;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: 返回统一数据结构
  * @author: wwt
  * @create: 2020-02-17 12:10

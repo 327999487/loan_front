@@ -32,9 +32,9 @@
   <!-- 如何连接到目标数据库 -->
     <jdbcConnection
         driverClass="oracle.jdbc.driver.OracleDriver"
-        connectionURL="jdbc:oracle:thin:@66.1.3.22:1521:cmis"
-        userId="ccabcfc"
-        password="ccabcfc">
+        connectionURL="jdbc:oracle:thin:@66.1.3.14:1521:orcl"
+        userId="cycfc_channel"
+        password="cycfc_channel">
       <!-- 针对oracle数据库 -->
       <property name="remarksReporting" value="true"></property>
     </jdbcConnection>
@@ -45,23 +45,23 @@
     </javaTypeResolver>
 
 	<!-- 制定javabean的生成属性 -->
-    <javaModelGenerator targetPackage="com.cycfc.borrow.entity" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+    <javaModelGenerator targetPackage="com.cycfc.borrow.entity" targetProject="D:\03-ideWorkSpace\cycfc_borrow_front\borrow_generator\src\main\java">
       <property name="enableSubPackages" value="true" />
       <property name="trimStrings" value="true" />
     </javaModelGenerator>
 
 	<!-- 制定映射文件生成策略 -->
-    <sqlMapGenerator targetPackage="com.cycfc.borrow.mapper" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+    <sqlMapGenerator targetPackage="com.cycfc.borrow.mapper" targetProject="D:\03-ideWorkSpace\cycfc_borrow_front\borrow_generator\src\main\java">
       <property name="enableSubPackages" value="true" />
     </sqlMapGenerator>
 
 	<!-- 指定mapper接口所在位置 -->
-    <javaClientGenerator type="XMLMAPPER" targetPackage="com.cycfc.borrow.dao" targetProject="D:\wwt\cy\code\git\cycfc_borrow_front\borrow_generator\src\main\java">
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.cycfc.borrow.dao" targetProject="D:\03-ideWorkSpace\cycfc_borrow_front\borrow_generator\src\main\java">
       <property name="enableSubPackages" value="true" />
     </javaClientGenerator>
 
 	<!-- 指定要生成的实体类对应的表 -->
-	<table tableName="CF_USER_INFO" domainObjectName="UserInfo">
+	<table tableName="credit_extend" domainObjectName="CreditExtend">
 <!--      CfCooperationLoantype-->
       <!--<generatedKey column="id" sqlStatement="ORACLE" identity="true"/>-->
       <!-- 是否只生成POJO对象 -->

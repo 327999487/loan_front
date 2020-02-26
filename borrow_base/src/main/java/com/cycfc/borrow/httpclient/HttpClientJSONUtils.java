@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @program: cycfc-borrow-front
+ * @program: borrow-front
  * @description: httpClient工具类，json参数传递
  * @author: wwt
  * @create: 2020-02-17 20:23
